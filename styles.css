@@ -1,12 +1,39 @@
-.container, .post {
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: black;
+}
+.post {
+    width: 500px;
+    height: 650px;
+    background-color: white;
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
 }
-.post {
-    width: 500px;
-    border: solid black 5px;
+.post-header {
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.username {
+    display: inline;
+}
+.post-icons {
+    width: 95%;
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+.left {
+    align-items: left;
+}
+.header-left {
+    text-align: left;
+    margin: 5px;
+}
+.fa-brands, .fa-solid, .fa-regular {
+    font-size: xx-large;
 }
